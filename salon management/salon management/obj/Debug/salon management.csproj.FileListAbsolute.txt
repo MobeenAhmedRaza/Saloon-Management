@@ -1,0 +1,38 @@
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\bin\Debug\salon management.exe.config
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\bin\Debug\salon management.exe
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\bin\Debug\salon management.pdb
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\obj\Debug\salon management.csprojResolveAssemblyReference.cache
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\obj\Debug\salon_management.Form1.resources
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\obj\Debug\salon_management.Properties.Resources.resources
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\obj\Debug\salon management.csproj.GenerateResource.Cache
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\obj\Debug\salon management.exe
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\obj\Debug\salon management.pdb
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\obj\Debug\salon_management.Facial.resources
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\obj\Debug\salon_management.Hair.resources
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\obj\Debug\salon_management.Makeup.resources
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\obj\Debug\salon_management.Massage.resources
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\obj\Debug\salon_management.Nails.resources
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\obj\Debug\salon_management.summary.resources
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\obj\Debug\salon_management.gender.resources
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\obj\Debug\salon_management.men.resources
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\obj\Debug\salon_management.f_details.resources
+E:\BCS 6A\DDBS\project proposal\salon management\salon management\obj\Debug\salon_management.mdiform.resources
+E:\salon management\salon management\bin\Debug\salon management.exe.config
+E:\salon management\salon management\obj\Debug\salon management.exe
+E:\salon management\salon management\obj\Debug\salon management.pdb
+E:\salon management\salon management\bin\Debug\salon management.exe
+E:\salon management\salon management\bin\Debug\salon management.pdb
+E:\salon management\salon management\obj\Debug\salon management.csprojResolveAssemblyReference.cache
+E:\salon management\salon management\obj\Debug\salon_management.Facial.resources
+E:\salon management\salon management\obj\Debug\salon_management.Form1.resources
+E:\salon management\salon management\obj\Debug\salon_management.f_details.resources
+E:\salon management\salon management\obj\Debug\salon_management.gender.resources
+E:\salon management\salon management\obj\Debug\salon_management.Hair.resources
+E:\salon management\salon management\obj\Debug\salon_management.Makeup.resources
+E:\salon management\salon management\obj\Debug\salon_management.Massage.resources
+E:\salon management\salon management\obj\Debug\salon_management.mdiform.resources
+E:\salon management\salon management\obj\Debug\salon_management.men.resources
+E:\salon management\salon management\obj\Debug\salon_management.Nails.resources
+E:\salon management\salon management\obj\Debug\salon_management.Properties.Resources.resources
+E:\salon management\salon management\obj\Debug\salon_management.summary.resources
+E:\salon management\salon management\obj\Debug\salon management.csproj.GenerateResource.Cache

@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{42E0175D-30A9-40F6-BE3F-C1C503FF7A1D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>salon_management</RootNamespace>
+    <AssemblyName>salon management</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Facial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facial.Designer.cs">
+      <DependentUpon>Facial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_details.Designer.cs">
+      <DependentUpon>f_details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gender.Designer.cs">
+      <DependentUpon>gender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hair.Designer.cs">
+      <DependentUpon>Hair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Makeup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Makeup.Designer.cs">
+      <DependentUpon>Makeup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Massage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Massage.Designer.cs">
+      <DependentUpon>Massage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mdiform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdiform.Designer.cs">
+      <DependentUpon>mdiform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="men.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="men.Designer.cs">
+      <DependentUpon>men.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nails.Designer.cs">
+      <DependentUpon>Nails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="summary.Designer.cs">
+      <DependentUpon>summary.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Facial.resx">
+      <DependentUpon>Facial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_details.resx">
+      <DependentUpon>f_details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gender.resx">
+      <DependentUpon>gender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hair.resx">
+      <DependentUpon>Hair.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Makeup.resx">
+      <DependentUpon>Makeup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Massage.resx">
+      <DependentUpon>Massage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mdiform.resx">
+      <DependentUpon>mdiform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="men.resx">
+      <DependentUpon>men.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nails.resx">
+      <DependentUpon>Nails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="summary.resx">
+      <DependentUpon>summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
